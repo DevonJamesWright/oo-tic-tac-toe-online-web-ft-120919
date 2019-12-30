@@ -36,6 +36,8 @@ class TicTacToe
   index = input_to_index(number)
     if valid_move?(index)
       move(index,current_player)
+    else 
+      turn
     end 
     display_board
   end
@@ -82,10 +84,6 @@ class TicTacToe
   end
   def play 
     game = gets
-    turn
-    over?
-    turn
-    over?
     turn
     over?
   end
