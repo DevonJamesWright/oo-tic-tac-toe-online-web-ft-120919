@@ -87,8 +87,8 @@ class TicTacToe
       turn
     end
     if draw?
-      p "Cat's Game!"
-    elsif puts "Congratulations #{winner}"
+      puts "Cat's Game!"
+    elsif puts "Congratulations #{winner}!"
     end
   end
   def display_board
