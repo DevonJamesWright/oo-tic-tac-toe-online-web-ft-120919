@@ -86,6 +86,7 @@ class TicTacToe
     over?
     turn
     over?
+    turn
     over?
   end
   def display_board
