@@ -83,10 +83,8 @@ class TicTacToe
   end
   end
   def play 
-    game = gets
     until over? do 
       turn
-      break
     end
   end
   def display_board
