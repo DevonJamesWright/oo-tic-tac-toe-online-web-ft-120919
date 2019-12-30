@@ -68,7 +68,6 @@ class TicTacToe
     elsif full?
     true #if !@board.include? WIN_COMBINATIONS true 
     end 
-    p "Cat's Game!"
   end
     def over?
       if draw?
@@ -81,13 +80,15 @@ class TicTacToe
     if winning_array = won?
     index = winning_array.first
     @board[index]
-    puts "Congratulations #{index}!"
   end
   end
   def play 
     until over? do 
       turn
     end
+    if draw?
+      p "Cat's Game!"
+    elsif puts "Congratulations #{winner}"
   end
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
