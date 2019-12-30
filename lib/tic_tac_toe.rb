@@ -86,6 +86,7 @@ class TicTacToe
     game = gets
     until over? do 
       turn
+      break
     end
   end
   def display_board
