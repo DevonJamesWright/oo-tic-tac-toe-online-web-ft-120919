@@ -68,6 +68,7 @@ class TicTacToe
     elsif full?
     true #if !@board.include? WIN_COMBINATIONS true 
     end 
+    puts "Cat's Game!"
   end
     def over?
       if draw?
