@@ -86,6 +86,12 @@ class TicTacToe
     game = gets
     turn
     over?
+    won?
+    draw?
+    turn
+    over?
+    won?
+    draw?
   end
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
