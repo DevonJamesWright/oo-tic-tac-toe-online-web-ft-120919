@@ -80,6 +80,7 @@ class TicTacToe
     if winning_array = won?
     index = winning_array.first
     @board[index]
+    puts "Congratulations #{index}!"
   end
   end
   def play 
