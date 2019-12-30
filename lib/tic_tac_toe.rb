@@ -89,6 +89,7 @@ class TicTacToe
     if draw?
       p "Cat's Game!"
     elsif puts "Congratulations #{winner}"
+    end
   end
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
